@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Image, StyleSheet } from "react-native";
-import Logo from "../../../assets/itemkulogo.png";
+import Logo from "../../../assets/logoitemku.png";
 import styles from "./styles";
 import { Feather } from "@expo/vector-icons";
 

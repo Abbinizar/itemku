@@ -6,6 +6,8 @@ import {
   View,
   FlatList,
   ImageBackground,
+  Image,
+  Text,
   TouchableWithoutFeedback,
   Button,
   TouchableHighlight,
@@ -17,9 +19,10 @@ import styles from "./styles";
 import { dataBanner } from "../../data/banner";
 import { dataList } from "../../data/list";
 import { dataProduct } from "../../data/product";
-import Card from "../../components/card";
 import Header from "../../components/header";
 import Background from "../../../assets/bg.png";
+import { AntDesign } from "@expo/vector-icons";
+import { Grey } from "../../helpers/colors";
 
 export const Home = ({ navigation }) => {
   navigation.setOptions({
@@ -29,11 +32,31 @@ export const Home = ({ navigation }) => {
   const [list, setList] = useState(dataList);
   const [product, setProduct] = useState(dataProduct);
 
-  const screenWidth = Math.round(Dimensions.get("window").width);
-
   const navigate = () => {
     navigation.push("Product");
   };
+
+  const ProductCard = ({ item }) => {
+    return (
+      <TouchableHighlight
+        underlayColor="rgba(73,182,77,1,0.9)"
+        onPress={() => navigate()}
+      >
+        <View style={styles.itemContainer}>
+          <Image style={styles.photo} source={{ uri: item.photo_url }} />
+          <View style={styles.itemDetail}>
+            <Text style={styles.name}>{item.name}</Text>
+            <Text style={styles.price}>Rp {item.price}</Text>
+            <Text style={styles.info}>{item.amount} Product terjual</Text>
+          </View>
+          <View>
+            <AntDesign name="heart" size={20} color={Grey} />
+          </View>
+        </View>
+      </TouchableHighlight>
+    );
+  };
+
   return (
     <SafeAreaView>
       <ScrollView style={styles.image}>
@@ -51,18 +74,13 @@ export const Home = ({ navigation }) => {
           />
         </ImageBackground>
         <View style={styles.separator} />
-
         <Carousel style="stats" itemsPerInterval={4} items={list} />
         <FlatList
-          //   onPress={navigate}
-          //   onPress={navigation.push("Product")}
           style={styles.marginCard}
           data={product}
-          renderItem={Card}
+          renderItem={ProductCard}
           keyExtractor={(item) => `${item.id}`}
         />
-        {/* </TouchableWithoutFeedback> */}
-        {/* <Button onPress={navigate} title="klik"></Button> */}
       </ScrollView>
     </SafeAreaView>
   );

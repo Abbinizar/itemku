@@ -1,22 +1,21 @@
 export const dataBanner = [
   {
-    image:
-      "https://images.unsplash.com/photo-1567226475328-9d6baaf565cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60",
+    image: "https://cdn.mos.cms.futurecdn.net/PRr4fvsUGCk6HP2MGrEcwk.jpg",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1455620611406-966ca6889d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1130&q=80",
+      "https://media.suara.com/pictures/970x544/2020/05/01/16453-assassins-creed-valhalla.jpg",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1477587458883-47145ed94245?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+      "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/blog/play/dota_heroes.png",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1568700942090-19dc36fab0c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+      "https://cdn.wccftech.com/wp-content/uploads/2020/05/resident-evil-8-village.jpg",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1584271854089-9bb3e5168e32?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80",
+      "https://cdn-images.win.gg/resize/w/932/h/420/format/jpg/type/progressive/fit/cover/path/news/images/5546/da6ee9fb645f38cfc900610feae54252/original.jpg",
   },
 ];
