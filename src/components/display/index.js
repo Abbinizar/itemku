@@ -2,12 +2,12 @@ import React, { Component, createRef } from "react";
 import {
   FlatList,
   View,
+  StyleSheet,
   LayoutAnimation,
   Platform,
   UIManager,
   Dimensions,
 } from "react-native";
-import { Orange } from "../../helpers/colors";
 import Indicator from "./indicator";
 import ChildItem from "./item";
 import styles from "./styles";
@@ -26,7 +26,7 @@ export default class FlatListSlider extends Component {
     indicator: true,
     indicatorStyle: {},
     indicatorContainerStyle: {},
-    indicatorActiveColor: `${Orange}`,
+    indicatorActiveColor: "#3498db",
     indicatorInActiveColor: "#bdc3c7",
     indicatorActiveWidth: 6,
     animation: true,

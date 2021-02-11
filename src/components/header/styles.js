@@ -3,7 +3,6 @@ const screenWidth = Math.round(Dimensions.get("window").width);
 
 const styles = StyleSheet.create({
   container: {
-    // width: { screenWidth },
     flex: 1,
     flexDirection: "row",
     alignItems: "center",
@@ -11,7 +10,6 @@ const styles = StyleSheet.create({
     paddingTop: 30,
   },
   background: {
-    // position: "absolute",
     flex: 1,
     height: 100,
     backgroundColor: "blue",

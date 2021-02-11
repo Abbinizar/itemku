@@ -1,7 +1,6 @@
 import React from "react";
 import {
   View,
-  Text,
   TouchableOpacity,
   Image,
   StyleSheet,
@@ -35,7 +34,6 @@ export default Preview = ({
 const styles = StyleSheet.create({
   videoContainer: {
     width: 275,
-    // paddingVertical: 28,
     justifyContent: "center",
     alignItems: "center",
     marginRight: 20,

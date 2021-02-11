@@ -1,13 +1,21 @@
 import { StyleSheet, Dimensions } from "react-native";
-import { Grey, Orange, Red } from "../../helpers/colors";
+import { Blue, Grey, Orange, Red } from "../../helpers/colors";
 
 const styles = StyleSheet.create({
   margins: {
     marginRight: 5,
   },
 
+  line: {
+    height: 10,
+    backgroundColor: `${Grey}`,
+    marginTop: 10,
+    marginBottom: 10,
+  },
+
   productContainer: {
-    padding: 20,
+    paddingLeft: 20,
+    paddingRight: 20,
   },
   iconHeader: {
     marginRight: 20,
@@ -58,7 +66,7 @@ const styles = StyleSheet.create({
   priceContainer: {
     flex: 1,
     flexDirection: "row",
-    alignItems: "flex-start",
+    alignItems: "flex-end",
   },
 
   productPrice: {
@@ -74,7 +82,7 @@ const styles = StyleSheet.create({
   },
 
   productStock: {
-    fontSize: 18,
+    fontSize: 20,
     color: `${Orange}`,
   },
 
@@ -86,6 +94,7 @@ const styles = StyleSheet.create({
     padding: 5,
     backgroundColor: `${Grey}`,
     marginTop: 10,
+    borderRadius: 2,
   },
 
   minimum: {
@@ -105,6 +114,7 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     alignItems: "flex-start",
     padding: 10,
+    marginBottom: 10,
   },
 
   logo: {
@@ -138,7 +148,7 @@ const styles = StyleSheet.create({
   productDetails: {
     flex: 1,
     flexDirection: "column",
-    marginTop: 20,
+    // marginTop: 10,
   },
 
   detailHeader: {
@@ -161,40 +171,40 @@ const styles = StyleSheet.create({
   desc: {
     flex: 1,
     flexDirection: "column",
+    // marginTop: 10,
+  },
+
+  reviewItem: {
+    height: 70,
+    borderRadius: 2,
+    padding: 10,
+    backgroundColor: `${Grey}`,
+    flexDirection: "row",
+    justifyContent: "space-between",
+  },
+
+  reviewPerson: {
+    fontWeight: "bold",
+  },
+
+  reviewCard: {
     marginTop: 10,
+  },
+
+  rightBottom: {
+    alignSelf: "flex-end",
+    color: `${Blue}`,
+    marginTop: 5,
   },
 
   buttonContainer: {
     flexDirection: "row",
     justifyContent: "space-between",
-    marginTop: 20,
-  },
-
-  buttonSecondary: {
-    justifyContent: "center",
-    alignItems: "center",
-    borderRadius: 5,
-    borderWidth: 1,
-    borderColor: `${Orange}`,
-    height: 40,
-    width: 150,
-  },
-
-  textSecondary: {
-    color: `${Orange}`,
-  },
-
-  buttonPrimary: {
-    justifyContent: "center",
-    alignItems: "center",
-    borderRadius: 5,
-    backgroundColor: `${Orange}`,
-    height: 40,
-    width: 150,
-  },
-
-  textPrimary: {
-    color: "#fff",
+    bottom: 0,
+    backgroundColor: `${Grey}`,
+    height: 70,
+    padding: 15,
+    marginTop: 10,
   },
 });
 

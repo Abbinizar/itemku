@@ -15,11 +15,12 @@ const styles = StyleSheet.create({
     backgroundColor: "white",
   },
   bg: {
-    // marginTop: 20,
     flex: 1,
   },
   marginCard: {
     marginTop: 5,
+    paddingRight: 10,
+    paddingLeft: 10,
   },
 
   //card
