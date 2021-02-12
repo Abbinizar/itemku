@@ -8,4 +8,6 @@
 
 ![Screenshot](https://github.com/Abbinizar/itemku/blob/master/assets/screenshot/productDetail1.jpeg)
 
+### Product Details Page
+
 ![Screenshot](hhttps://github.com/Abbinizar/itemku/blob/master/assets/screenshot/productDetail2.jpeg)
