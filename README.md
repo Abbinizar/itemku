@@ -10,4 +10,4 @@
 
 ### Product Details Page
 
-![Screenshot](hhttps://github.com/Abbinizar/itemku/blob/master/assets/screenshot/productDetail2.jpeg)
+![Screenshot](https://github.com/Abbinizar/itemku/blob/master/assets/screenshot/productDetail2.jpeg)
