@@ -26,4 +26,4 @@ Tested on Device 5 inc
 
 ### Figma Prototype
 
-[a link](https://www.figma.com/proto/j1gNbZkVWX9HG8ZXjLRjO4/itemku?node-id=1%3A4&scaling=scale-down)
+[Click here](https://www.figma.com/proto/j1gNbZkVWX9HG8ZXjLRjO4/itemku?node-id=1%3A4&scaling=scale-down)
