@@ -204,7 +204,13 @@ const Product = ({ navigation }) => {
             </View>
           </View>
         </View>
-        <Text style={styles.rightBottom}>View More</Text>
+        <View style={styles.rightBottom}>
+          <Feather name="chevron-left" size={24} color="black" />
+          <View style={styles.pagination}>
+            <Text style={styles.numberPage}>1</Text>
+          </View>
+          <Feather name="chevron-right" size={24} color="black" />
+        </View>
       </View>
     );
   };

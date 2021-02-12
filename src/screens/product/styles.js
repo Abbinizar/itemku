@@ -192,9 +192,30 @@ const styles = StyleSheet.create({
   },
 
   rightBottom: {
+    flexDirection: "row",
+    justifyContent: "center",
+    alignContent: "center",
     alignSelf: "flex-end",
     color: `${Blue}`,
-    marginTop: 5,
+    marginTop: 10,
+  },
+
+  pagination: {
+    backgroundColor: `${Orange}`,
+    height: 20,
+    borderRadius: 5,
+    width: 20,
+    justifyContent: "center",
+    alignContent: "center",
+    alignItems: "center",
+    margin: 2,
+    marginLeft: 5,
+    marginRight: 5,
+  },
+
+  numberPage: {
+    fontWeight: "bold",
+    color: "#fff",
   },
 
   buttonContainer: {
